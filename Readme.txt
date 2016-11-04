@@ -11,3 +11,7 @@
    --- >  sh install.sh
 
 
+Also Add twig extension in php.ini
+( For UNIX system )
+
+$extension=twig.so
