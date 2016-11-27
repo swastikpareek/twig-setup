@@ -209,23 +209,23 @@
 
 
 
-var magicNumber = function(n,M){
-  pow = 1; add = 0;
-  var bin = '';
-  while(n){
-    pow = pow * M;
-    // odd digits addition
-    if(n % 2 === 1){
-      add = add + pow;
-      // reduces
-      bin = '1' + bin;
-      n = n - 1;
-    }else{
-      bin = '0' + bin;
-    }
-    if(n){
-      n = n/2;
-    }
-  }
-  console.log(add , bin);
-}(16,5);
+// var magicNumber = function(n,M){
+//   pow = 1; add = 0;
+//   var bin = '';
+//   while(n){
+//     pow = pow * M;
+//     // odd digits addition
+//     if(n % 2 === 1){
+//       add = add + pow;
+//       // reduces
+//       bin = '1' + bin;
+//       n = n - 1;
+//     }else{
+//       bin = '0' + bin;
+//     }
+//     if(n){
+//       n = n/2;
+//     }
+//   }
+//   console.log(add , bin);
+// }(16,5);
