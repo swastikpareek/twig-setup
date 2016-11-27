@@ -5,7 +5,14 @@
 {% block body %}
 
 <DIV class="example-page">
+  {{ dump() }}
   Filter Page Example
+  <div>  Upper Case : {{ user.name | upper }} </div>
+  <div>  Lower Case : {{ user.name | lower }} </div>
+  <div> {% filter upper %}
+    This text becomes uppercase
+{% endfilter %}
+</div>
 </DIV>
 
 {% endblock %}

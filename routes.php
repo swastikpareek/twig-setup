@@ -17,7 +17,12 @@
         ),
       ),
     )),
-    '/examples/filter' => array('examples/filter'),
+    '/examples/filter' => array('examples/filter',array(
+      'user' => array(
+        'name' => 'superman'
+        )
+      )
+    ),
     '/examples/loop' => array('examples/loop' ,array('items' => array('Coffee <strong> is </strong> hot', 'Superman <script> alert("hi"); </script>', 'Twig', 'Rubber', 'Letter'))),
   );
 ?>
