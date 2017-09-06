@@ -1,8 +1,7 @@
 <?php
-include 'Twig/lib/Twig/Autoloader.php';
+require_once 'vendor/autoload.php';
 include 'routes.php';
 
-Twig_Autoloader::register();
 try {
   // specify where to look for templates
   $loader = new Twig_Loader_Filesystem('templates');

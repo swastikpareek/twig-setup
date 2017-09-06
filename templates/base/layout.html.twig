@@ -12,6 +12,8 @@
       {{ include('components/header.html.twig' , { 'homeTitle' : 'Home' , 'homeLink' : '/'}) }}
       <content class="content">
         {% block body %} New Page Body {% endblock %}
+          I always Dump -
+          {{ dump() }}
       </content>
       {{ include('components/footer.html.twig') }}
     </div>
