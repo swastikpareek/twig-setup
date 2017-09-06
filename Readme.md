@@ -15,5 +15,3 @@ $ sh install.sh
 ```php
   $extension=twig.so
 ```
-
-Demo here - https://swastikpareek.github.io/twig-setup/
